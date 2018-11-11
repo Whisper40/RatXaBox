@@ -204,6 +204,7 @@ if FONCYES "$VALIDE"; then
 				set "184"; FONCTXT "$1"; echo -e "${CBLUE}$TXT1${CEND} ${CYELLOW}$USER${CEND}"
 				set "186"; FONCTXT "$1"; echo -e "${CBLUE}$TXT1${CEND} ${CYELLOW}${PASSNGINX}${CEND}"
 				set "188"; FONCTXT "$1"; echo -e "${CGREEN}$TXT1${CEND}"; echo ""
+				cp /home/$USER/.rtorrent.rc /home/$USER/.rtorrentbackup.rc
 			;;
 
 			2) # suspendre utilisateur
